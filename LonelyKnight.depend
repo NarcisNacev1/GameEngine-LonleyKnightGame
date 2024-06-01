@@ -1,0 +1,999 @@
+# depslib dependency file v1.0
+1581413667 source:c:\users\fpouh\desktop\softengine\main.cpp
+	"Engine.h"
+	"Timer.h"
+
+1581939318 c:\users\fpouh\desktop\softengine\src\core\engine.h
+	"SDL.h"
+	"SDL_image.h"
+	"GameMap.h"
+
+1582120015 source:c:\users\fpouh\desktop\softengine\src\core\engine.cpp
+	"Engine.h"
+	"TextureManager.h"
+	"Input.h"
+	"Warrior.h"
+	"SDL.h"
+	"Timer.h"
+	"MapParser.h"
+	<iostream>
+	"Camera.h"
+
+1582120039 source:c:\users\fpouh\desktop\softengine\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+	"Camera.h"
+	"tinyxml.h"
+	<iostream>
+
+1582120030 c:\users\fpouh\desktop\softengine\src\graphics\texturemanager.h
+	<string>
+	"SDL.h"
+	<map>
+
+1580916706 c:\users\fpouh\desktop\softengine\src\physics\transform.h
+	"Vector2D.h"
+
+1580578761 c:\users\fpouh\desktop\softengine\src\physics\vector2d.h
+	<iostream>
+
+1582112549 c:\users\fpouh\desktop\softengine\src\characters\warrior.h
+	"Character.h"
+	"Animation.h"
+	"RigidBody.h"
+	"Collider.h"
+	"Vector2D.h"
+
+1580766743 c:\users\fpouh\desktop\softengine\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1581890016 c:\users\fpouh\desktop\softengine\src\object\gameobject.h
+	"IObject.h"
+	"Transform.h"
+	"SDL.h"
+	"Point.h"
+
+1580579801 c:\users\fpouh\desktop\softengine\src\object\iobject.h
+
+1582117613 c:\users\fpouh\desktop\softengine\src\animation\animation.h
+	"SDL.h"
+	<string>
+
+1582113572 source:c:\users\fpouh\desktop\softengine\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1582106859 c:\users\fpouh\desktop\softengine\src\physics\rigidbody.h
+	"Vector2D.h"
+
+1582118688 source:c:\users\fpouh\desktop\softengine\src\characters\warrior.cpp
+	"Warrior.h"
+	"TextureManager.h"
+	"SDL.h"
+	"Input.h"
+	"Engine.h"
+	"CollisionHandler.h"
+	"Camera.h"
+
+1582110601 c:\users\fpouh\desktop\softengine\src\inputs\input.h
+	"SDL.h"
+
+1582110581 source:c:\users\fpouh\desktop\softengine\src\inputs\input.cpp
+	"Input.h"
+	"Engine.h"
+
+1581114872 c:\users\fpouh\desktop\softengine\src\timer\timer.h
+
+1581115044 source:c:\users\fpouh\desktop\softengine\src\timer\timer.cpp
+	"Timer.h"
+	"SDL.h"
+
+1305426298 source:c:\users\fpouh\desktop\softengine\src\vendor\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1305426298 c:\users\fpouh\desktop\softengine\src\vendor\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1305426298 source:c:\users\fpouh\desktop\softengine\src\vendor\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1574641126 c:\users\fpouh\desktop\softengine\src\vendor\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305426298 source:c:\users\fpouh\desktop\softengine\src\vendor\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426298 source:c:\users\fpouh\desktop\softengine\src\vendor\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1581875641 source:c:\users\fpouh\desktop\softengine\src\map\tilelayer.cpp
+	"TileLayer.h"
+	"TextureManager.h"
+
+1581875517 c:\users\fpouh\desktop\softengine\src\map\tilelayer.h
+	<string>
+	<vector>
+	"Layer.h"
+	"Vector2D.h"
+
+1581875252 c:\users\fpouh\desktop\softengine\src\map\layer.h
+
+1581936934 source:c:\users\fpouh\desktop\softengine\src\map\mapparser.cpp
+	"MapParser.h"
+
+1581936948 c:\users\fpouh\desktop\softengine\src\map\mapparser.h
+	<map>
+	<string>
+	"GameMap.h"
+	"tinyxml.h"
+	"TileLayer.h"
+
+1581936964 c:\users\fpouh\desktop\softengine\src\map\gamemap.h
+	<vector>
+	"Layer.h"
+
+1581413667 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\main.cpp
+	"Engine.h"
+	"Timer.h"
+
+1581429948 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\core\engine.h
+	"SDL.h"
+	"SDL_image.h"
+	"GameMap.h"
+
+1581875331 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\map\gamemap.h
+	<vector>
+	"Layer.h"
+
+1581875252 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\map\layer.h
+
+1581114872 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\timer\timer.h
+
+1580768241 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1580768024 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\animation\animation.h
+	<string>
+	"SDL.h"
+
+1581429467 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\graphics\texturemanager.h
+	<string>
+	"SDL.h"
+	<map>
+
+1581875823 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\characters\warrior.cpp
+	"Warrior.h"
+	"TextureManager.h"
+	"SDL.h"
+	"Input.h"
+
+1581112716 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\characters\warrior.h
+	"Character.h"
+	"Animation.h"
+	"RigidBody.h"
+
+1580766743 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1580767016 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\object\gameobject.h
+	"IObject.h"
+	"Transform.h"
+	"SDL.h"
+
+1580579801 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\object\iobject.h
+
+1580916706 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\physics\transform.h
+	"Vector2D.h"
+
+1580578761 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\physics\vector2d.h
+	<iostream>
+
+1580919151 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\physics\rigidbody.h
+	"Vector2D.h"
+
+1580917464 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\inputs\input.h
+	"SDL.h"
+
+1581876252 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\core\engine.cpp
+	"Engine.h"
+	"TextureManager.h"
+	"Input.h"
+	"Warrior.h"
+	"SDL.h"
+	"Timer.h"
+	"MapParser.h"
+	<iostream>
+
+1581875699 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\map\mapparser.h
+	<map>
+	<string>
+	"GameMap.h"
+	"tinyxml.h"
+	"TileLayer.h"
+
+1574641126 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\vendor\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305426298 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\vendor\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1581875517 c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\map\tilelayer.h
+	<string>
+	<vector>
+	"Layer.h"
+	"Vector2D.h"
+
+1581874941 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+
+1580918059 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\inputs\input.cpp
+	"Input.h"
+	"Engine.h"
+
+1581876147 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\map\mapparser.cpp
+	"MapParser.h"
+
+1581875641 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\map\tilelayer.cpp
+	"TileLayer.h"
+	"TextureManager.h"
+
+1581115044 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\timer\timer.cpp
+	"Timer.h"
+	"SDL.h"
+
+1305426298 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\vendor\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1305426298 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\vendor\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305426298 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\vendor\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426298 source:c:\users\fpouh\desktop\video\#17 mapparser #3\softengine\src\vendor\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1581888904 c:\users\fpouh\desktop\softengine\src\physics\point.h
+	<iostream>
+
+1581890080 c:\users\fpouh\desktop\softengine\src\camera\camera.h
+	"SDL.h"
+	"Point.h"
+	"Engine.h"
+	"Vector2D.h"
+
+1581890057 source:c:\users\fpouh\desktop\softengine\src\camera\camera.cpp
+	"Camera.h"
+
+1582107784 source:c:\users\fpouh\desktop\softengine\src\collision\collisionhandler.cpp
+	"CollisionHandler.h"
+	"Engine.h"
+
+1581939510 c:\users\fpouh\desktop\softengine\src\collision\collisionhandler.h
+	"SDL.h"
+	<vector>
+	"TileLayer.h"
+	"GameMap.h"
+
+1581939762 c:\users\fpouh\desktop\softengine\src\physics\collider.h
+	"SDL.h"
+
+1581413667 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\main.cpp
+	"Engine.h"
+	"Timer.h"
+
+1581939318 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\core\engine.h
+	"SDL.h"
+	"SDL_image.h"
+	"GameMap.h"
+
+1581936964 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\map\gamemap.h
+	<vector>
+	"Layer.h"
+
+1581875252 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\map\layer.h
+
+1581114872 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\timer\timer.h
+
+1582113572 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1582117613 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\animation\animation.h
+	"SDL.h"
+	<string>
+
+1582120030 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\graphics\texturemanager.h
+	<string>
+	"SDL.h"
+	<map>
+
+1581890057 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\camera\camera.cpp
+	"Camera.h"
+
+1581890080 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\camera\camera.h
+	"SDL.h"
+	"Point.h"
+	"Engine.h"
+	"Vector2D.h"
+
+1581888904 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\physics\point.h
+	<iostream>
+
+1580578761 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\physics\vector2d.h
+	<iostream>
+
+1582118688 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\characters\warrior.cpp
+	"Warrior.h"
+	"TextureManager.h"
+	"SDL.h"
+	"Input.h"
+	"Engine.h"
+	"CollisionHandler.h"
+	"Camera.h"
+
+1582112549 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\characters\warrior.h
+	"Character.h"
+	"Animation.h"
+	"RigidBody.h"
+	"Collider.h"
+	"Vector2D.h"
+
+1580766743 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1581890016 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\object\gameobject.h
+	"IObject.h"
+	"Transform.h"
+	"SDL.h"
+	"Point.h"
+
+1580579801 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\object\iobject.h
+
+1580916706 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\physics\transform.h
+	"Vector2D.h"
+
+1582106859 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\physics\rigidbody.h
+	"Vector2D.h"
+
+1581939762 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\physics\collider.h
+	"SDL.h"
+
+1582110601 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\inputs\input.h
+	"SDL.h"
+
+1581939510 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\collision\collisionhandler.h
+	"SDL.h"
+	<vector>
+	"TileLayer.h"
+	"GameMap.h"
+
+1581875517 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\map\tilelayer.h
+	<string>
+	<vector>
+	"Layer.h"
+	"Vector2D.h"
+
+1582107784 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\collision\collisionhandler.cpp
+	"CollisionHandler.h"
+	"Engine.h"
+
+1582120039 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+	"Camera.h"
+	"tinyxml.h"
+	<iostream>
+
+1574641126 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\vendor\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305426298 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\vendor\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1582110581 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\inputs\input.cpp
+	"Input.h"
+	"Engine.h"
+
+1581936934 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\map\mapparser.cpp
+	"MapParser.h"
+
+1581936948 c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\map\mapparser.h
+	<map>
+	<string>
+	"GameMap.h"
+	"tinyxml.h"
+	"TileLayer.h"
+
+1581875641 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\map\tilelayer.cpp
+	"TileLayer.h"
+	"TextureManager.h"
+
+1581115044 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\timer\timer.cpp
+	"Timer.h"
+	"SDL.h"
+
+1305426298 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\vendor\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1305426298 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\vendor\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305426298 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\vendor\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426298 source:c:\users\fpouh\desktop\video\#21 player statemachine\softengine\src\vendor\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1581417267 source:c:\users\narci\downloads\softengine-state\softengine\main.cpp
+	"Engine.h"
+	"Timer.h"
+
+1581942918 c:\users\narci\downloads\softengine-state\softengine\src\core\engine.h
+	"SDL.h"
+	"SDL_image.h"
+	"GameMap.h"
+
+1581940564 c:\users\narci\downloads\softengine-state\softengine\src\map\gamemap.h
+	<vector>
+	"Layer.h"
+
+1581878852 c:\users\narci\downloads\softengine-state\softengine\src\map\layer.h
+
+1581118472 c:\users\narci\downloads\softengine-state\softengine\src\timer\timer.h
+
+1582117172 source:c:\users\narci\downloads\softengine-state\softengine\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1582121213 c:\users\narci\downloads\softengine-state\softengine\src\animation\animation.h
+	"SDL.h"
+	<string>
+
+1582123630 c:\users\narci\downloads\softengine-state\softengine\src\graphics\texturemanager.h
+	<string>
+	"SDL.h"
+	<map>
+
+1581893657 source:c:\users\narci\downloads\softengine-state\softengine\src\camera\camera.cpp
+	"Camera.h"
+
+1581893680 c:\users\narci\downloads\softengine-state\softengine\src\camera\camera.h
+	"SDL.h"
+	"Point.h"
+	"Engine.h"
+	"Vector2D.h"
+
+1581892504 c:\users\narci\downloads\softengine-state\softengine\src\physics\point.h
+	<iostream>
+
+1580582361 c:\users\narci\downloads\softengine-state\softengine\src\physics\vector2d.h
+	<iostream>
+
+1582122288 source:c:\users\narci\downloads\softengine-state\softengine\src\characters\warrior.cpp
+	"Warrior.h"
+	"TextureManager.h"
+	"SDL.h"
+	"Input.h"
+	"Engine.h"
+	"CollisionHandler.h"
+	"Camera.h"
+
+1582116149 c:\users\narci\downloads\softengine-state\softengine\src\characters\warrior.h
+	"Character.h"
+	"Animation.h"
+	"RigidBody.h"
+	"Collider.h"
+	"Vector2D.h"
+
+1580770343 c:\users\narci\downloads\softengine-state\softengine\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1581893616 c:\users\narci\downloads\softengine-state\softengine\src\object\gameobject.h
+	"IObject.h"
+	"Transform.h"
+	"SDL.h"
+	"Point.h"
+
+1580583401 c:\users\narci\downloads\softengine-state\softengine\src\object\iobject.h
+
+1580920306 c:\users\narci\downloads\softengine-state\softengine\src\physics\transform.h
+	"Vector2D.h"
+
+1582110459 c:\users\narci\downloads\softengine-state\softengine\src\physics\rigidbody.h
+	"Vector2D.h"
+
+1581943362 c:\users\narci\downloads\softengine-state\softengine\src\physics\collider.h
+	"SDL.h"
+
+1582114201 c:\users\narci\downloads\softengine-state\softengine\src\inputs\input.h
+	"SDL.h"
+
+1581943110 c:\users\narci\downloads\softengine-state\softengine\src\collision\collisionhandler.h
+	"SDL.h"
+	<vector>
+	"TileLayer.h"
+	"GameMap.h"
+
+1581879117 c:\users\narci\downloads\softengine-state\softengine\src\map\tilelayer.h
+	<string>
+	<vector>
+	"Layer.h"
+	"Vector2D.h"
+
+1582111384 source:c:\users\narci\downloads\softengine-state\softengine\src\collision\collisionhandler.cpp
+	"CollisionHandler.h"
+	"Engine.h"
+
+1582124101 source:c:\users\narci\downloads\softengine-state\softengine\src\core\engine.cpp
+	"Engine.h"
+	"TextureManager.h"
+	"Input.h"
+	"Warrior.h"
+	"SDL.h"
+	"Timer.h"
+	"MapParser.h"
+	<iostream>
+	"Camera.h"
+
+1581940548 c:\users\narci\downloads\softengine-state\softengine\src\map\mapparser.h
+	<map>
+	<string>
+	"GameMap.h"
+	"tinyxml.h"
+	"TileLayer.h"
+
+1574644726 c:\users\narci\downloads\softengine-state\softengine\src\vendor\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305426298 c:\users\narci\downloads\softengine-state\softengine\src\vendor\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1582123639 source:c:\users\narci\downloads\softengine-state\softengine\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+	"Camera.h"
+	"tinyxml.h"
+	<iostream>
+
+1582114181 source:c:\users\narci\downloads\softengine-state\softengine\src\inputs\input.cpp
+	"Input.h"
+	"Engine.h"
+
+1581940534 source:c:\users\narci\downloads\softengine-state\softengine\src\map\mapparser.cpp
+	"MapParser.h"
+
+1581879241 source:c:\users\narci\downloads\softengine-state\softengine\src\map\tilelayer.cpp
+	"TileLayer.h"
+	"TextureManager.h"
+
+1581118644 source:c:\users\narci\downloads\softengine-state\softengine\src\timer\timer.cpp
+	"Timer.h"
+	"SDL.h"
+
+1305426298 source:c:\users\narci\downloads\softengine-state\softengine\src\vendor\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1305426298 source:c:\users\narci\downloads\softengine-state\softengine\src\vendor\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305426298 source:c:\users\narci\downloads\softengine-state\softengine\src\vendor\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426298 source:c:\users\narci\downloads\softengine-state\softengine\src\vendor\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1581417267 source:c:\users\narci\downloads\lonelyknight\lonelyknight\main.cpp
+	"Engine.h"
+	"Timer.h"
+
+1581942918 c:\users\narci\downloads\lonelyknight\lonelyknight\src\core\engine.h
+	"SDL.h"
+	"SDL_image.h"
+	"GameMap.h"
+
+1581940564 c:\users\narci\downloads\lonelyknight\lonelyknight\src\map\gamemap.h
+	<vector>
+	"Layer.h"
+
+1581878852 c:\users\narci\downloads\lonelyknight\lonelyknight\src\map\layer.h
+
+1581118472 c:\users\narci\downloads\lonelyknight\lonelyknight\src\timer\timer.h
+
+1582117172 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1582121213 c:\users\narci\downloads\lonelyknight\lonelyknight\src\animation\animation.h
+	"SDL.h"
+	<string>
+
+1582123630 c:\users\narci\downloads\lonelyknight\lonelyknight\src\graphics\texturemanager.h
+	<string>
+	"SDL.h"
+	<map>
+
+1581893657 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\camera\camera.cpp
+	"Camera.h"
+
+1581893680 c:\users\narci\downloads\lonelyknight\lonelyknight\src\camera\camera.h
+	"SDL.h"
+	"Point.h"
+	"Engine.h"
+	"Vector2D.h"
+
+1581892504 c:\users\narci\downloads\lonelyknight\lonelyknight\src\physics\point.h
+	<iostream>
+
+1580582361 c:\users\narci\downloads\lonelyknight\lonelyknight\src\physics\vector2d.h
+	<iostream>
+
+1582122288 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\characters\warrior.cpp
+	"Warrior.h"
+	"TextureManager.h"
+	"SDL.h"
+	"Input.h"
+	"Engine.h"
+	"CollisionHandler.h"
+	"Camera.h"
+
+1582116149 c:\users\narci\downloads\lonelyknight\lonelyknight\src\characters\warrior.h
+	"Character.h"
+	"Animation.h"
+	"RigidBody.h"
+	"Collider.h"
+	"Vector2D.h"
+
+1580770343 c:\users\narci\downloads\lonelyknight\lonelyknight\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1581893616 c:\users\narci\downloads\lonelyknight\lonelyknight\src\object\gameobject.h
+	"IObject.h"
+	"Transform.h"
+	"SDL.h"
+	"Point.h"
+
+1580583401 c:\users\narci\downloads\lonelyknight\lonelyknight\src\object\iobject.h
+
+1580920306 c:\users\narci\downloads\lonelyknight\lonelyknight\src\physics\transform.h
+	"Vector2D.h"
+
+1582110459 c:\users\narci\downloads\lonelyknight\lonelyknight\src\physics\rigidbody.h
+	"Vector2D.h"
+
+1581943362 c:\users\narci\downloads\lonelyknight\lonelyknight\src\physics\collider.h
+	"SDL.h"
+
+1582114201 c:\users\narci\downloads\lonelyknight\lonelyknight\src\inputs\input.h
+	"SDL.h"
+
+1581943110 c:\users\narci\downloads\lonelyknight\lonelyknight\src\collision\collisionhandler.h
+	"SDL.h"
+	<vector>
+	"TileLayer.h"
+	"GameMap.h"
+
+1581879117 c:\users\narci\downloads\lonelyknight\lonelyknight\src\map\tilelayer.h
+	<string>
+	<vector>
+	"Layer.h"
+	"Vector2D.h"
+
+1582111384 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\collision\collisionhandler.cpp
+	"CollisionHandler.h"
+	"Engine.h"
+
+1582124101 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\core\engine.cpp
+	"Engine.h"
+	"TextureManager.h"
+	"Input.h"
+	"Warrior.h"
+	"SDL.h"
+	"Timer.h"
+	"MapParser.h"
+	<iostream>
+	"Camera.h"
+
+1581940548 c:\users\narci\downloads\lonelyknight\lonelyknight\src\map\mapparser.h
+	<map>
+	<string>
+	"GameMap.h"
+	"tinyxml.h"
+	"TileLayer.h"
+
+1574644726 c:\users\narci\downloads\lonelyknight\lonelyknight\src\vendor\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305426298 c:\users\narci\downloads\lonelyknight\lonelyknight\src\vendor\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1582123639 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+	"Camera.h"
+	"tinyxml.h"
+	<iostream>
+
+1582114181 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\inputs\input.cpp
+	"Input.h"
+	"Engine.h"
+
+1581940534 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\map\mapparser.cpp
+	"MapParser.h"
+
+1581879241 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\map\tilelayer.cpp
+	"TileLayer.h"
+	"TextureManager.h"
+
+1581118644 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\timer\timer.cpp
+	"Timer.h"
+	"SDL.h"
+
+1305426298 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\vendor\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1305426298 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\vendor\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305426298 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\vendor\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426298 source:c:\users\narci\downloads\lonelyknight\lonelyknight\src\vendor\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1581417267 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\main.cpp
+	"Engine.h"
+	"Timer.h"
+
+1581942918 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\core\engine.h
+	"SDL.h"
+	"SDL_image.h"
+	"GameMap.h"
+
+1581940564 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\map\gamemap.h
+	<vector>
+	"Layer.h"
+
+1581878852 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\map\layer.h
+
+1581118472 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\timer\timer.h
+
+1582117172 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1582121213 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\animation\animation.h
+	"SDL.h"
+	<string>
+
+1582123630 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\graphics\texturemanager.h
+	<string>
+	"SDL.h"
+	<map>
+
+1581893657 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\camera\camera.cpp
+	"Camera.h"
+
+1581893680 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\camera\camera.h
+	"SDL.h"
+	"Point.h"
+	"Engine.h"
+	"Vector2D.h"
+
+1581892504 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\physics\point.h
+	<iostream>
+
+1580582361 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\physics\vector2d.h
+	<iostream>
+
+1582122288 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\characters\warrior.cpp
+	"Warrior.h"
+	"TextureManager.h"
+	"SDL.h"
+	"Input.h"
+	"Engine.h"
+	"CollisionHandler.h"
+	"Camera.h"
+
+1582116149 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\characters\warrior.h
+	"Character.h"
+	"Animation.h"
+	"RigidBody.h"
+	"Collider.h"
+	"Vector2D.h"
+
+1580770343 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1581893616 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\object\gameobject.h
+	"IObject.h"
+	"Transform.h"
+	"SDL.h"
+	"Point.h"
+
+1580583401 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\object\iobject.h
+
+1580920306 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\physics\transform.h
+	"Vector2D.h"
+
+1582110459 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\physics\rigidbody.h
+	"Vector2D.h"
+
+1581943362 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\physics\collider.h
+	"SDL.h"
+
+1582114201 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\inputs\input.h
+	"SDL.h"
+
+1581943110 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\collision\collisionhandler.h
+	"SDL.h"
+	<vector>
+	"TileLayer.h"
+	"GameMap.h"
+
+1581879117 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\map\tilelayer.h
+	<string>
+	<vector>
+	"Layer.h"
+	"Vector2D.h"
+
+1582111384 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\collision\collisionhandler.cpp
+	"CollisionHandler.h"
+	"Engine.h"
+
+1582124101 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\core\engine.cpp
+	"Engine.h"
+	"TextureManager.h"
+	"Input.h"
+	"Warrior.h"
+	"SDL.h"
+	"Timer.h"
+	"MapParser.h"
+	<iostream>
+	"Camera.h"
+
+1581940548 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\map\mapparser.h
+	<map>
+	<string>
+	"GameMap.h"
+	"tinyxml.h"
+	"TileLayer.h"
+
+1574644726 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\vendor\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305426298 c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\vendor\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1582123639 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+	"Camera.h"
+	"tinyxml.h"
+	<iostream>
+
+1582114181 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\inputs\input.cpp
+	"Input.h"
+	"Engine.h"
+
+1581940534 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\map\mapparser.cpp
+	"MapParser.h"
+
+1581879241 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\map\tilelayer.cpp
+	"TileLayer.h"
+	"TextureManager.h"
+
+1581118644 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\timer\timer.cpp
+	"Timer.h"
+	"SDL.h"
+
+1305426298 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\vendor\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1305426298 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\vendor\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305426298 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\vendor\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426298 source:c:\users\narci\downloads\lonelyknight (2)\lonelyknight\lonelyknight\src\vendor\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
